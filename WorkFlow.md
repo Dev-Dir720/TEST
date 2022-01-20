@@ -1,7 +1,12 @@
 ::: mermaid
-graph TD;
+graph LR;
     A-->B;
-    A-->C;
-    B-->D;
+    B-->C;
     C-->D;
+    D-->E;
+:::
+::: mermaid
+graph BT;
+A-->B;
+B-->C;
 :::
